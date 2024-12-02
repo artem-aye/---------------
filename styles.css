@@ -1,0 +1,113 @@
+body { 
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('c:\Users\User\Downloads\wall-21534_1280.jpg');
+  background-size: cover;
+  background-repeat: repeat;
+  color: #ac2626; /* Белый цвет текста для лучшей видимости */
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #000000; /* Более тёмный серый цвет для меню */
+  z-index: 1000;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center; /* Центрируем меню */
+}
+
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu li {
+  margin: 0 15px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #fff; /* Белый цвет для текста ссылок */
+  padding: 15px 20px;
+  display: flex;
+  align-items: center; /* Выровнять иконку с текстом */
+  transition: background-color 0.3s;
+}
+
+.menu a:hover {
+  background-color: #b11b1b; /* Лёгкий серый оттенок для активных ссылок */
+  border-radius: 5px;
+}
+
+.menu a i {
+  margin-right: 8px; /* Отступ между иконкой и текстом */
+}
+
+main {
+  padding-top: 60px; /* Учитываем фиксированное меню */
+}
+
+section {
+  padding: 50px 20px;
+  border-bottom: 1px solid #234794;
+}
+
+section h1, section h2 {
+  margin-top: 0;
+}
+
+section:nth-child(odd) {
+  background-color: #b4bac5; /* Светлый фон для нечётных секций */
+}
+
+.catalog {
+  display: flex;
+  gap: 40px;
+}
+
+
+button {
+  background-color: #ff5722; /* Оранжевый цвет для кнопок */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #94685c; /* Темный оранжевый при наведении */
+}
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+
+.navbar-image {
+  
+  height: 60px; 
+  width: 150px;
+  margin-left: 0px; 
+  margin-right: 0px; 
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+.nav-item {
+  font-size: 20px; /* Установите размер шрифта по вашему усмотрению */
+  font-weight: bold; /* Сделать текст жирным, если нужно */
+}
+
+/* Если нужно увеличить шрифт только для ссылок, можно использовать этот селектор */
+.nav-link {
+  font-size: 20px; /* Увеличиваем размер шрифта только для ссылок */
+}

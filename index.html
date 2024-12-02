@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gamesell</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="icon" href="/images/favicon_shop.png" type="image/png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <li class="nav-item">
+          <img src="images/icon-removebg-preview.png" alt="Image" class="navbar-image">
+      </li>
+  
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="#home">Головна</a></li>
+          <li class="nav-item"><a class="nav-link" href="#top">Топ ігор</a></li>
+          <li class="nav-item"><a class="nav-link" href="#blog">Новини</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Зв'язатися зі мною</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Главная секция -->
+    <section id="home">
+      <h1 class="text-center my-4">Добро пожаловать на Gamesell</h1>
+      <p class="text-center">Найдите лучшие игры для себя!</p>
+
+      <!-- Фильтрация по жанрам -->
+      <div class="container my-5">
+        <h2 class="text-center mb-4">Доступні ігри</h2>
+        <div class="form-group">
+          <label for="genreFilter">Фільтруйте за жанром</label>
+          <select class="form-control" id="genreFilter">
+            <option value="all">Усі</option>
+            <option value="action">Екшн</option>
+            <option value="horror">Хорор</option>
+            <option value="shooter">Шутери</option>
+            <option value="simulation">Симулятори</option>
+            <option value="adventure">Пригоди</option>
+            <option value="strategy">Стратегія</option>
+            <option value="rpg">РПГ</option>
+            <option value="utility">Утиліти</option>
+            <option value="survival">Виживання</option>
+          </select>
+        </div>
+        <h1 class="text-center mb-4">Ігри</h1>
+        <div class="row catalog"></div>
+      </div>
+    </section>
+
+    <!-- Секция жанров -->
+    <section id="top">
+      <h2 class="text-center my-4">Топ ігор за жанрами</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h3>Екшн</h3>
+            <ul>
+              <li>Grand Theft Auto V</li>
+              <li>Red Dead Redemption 2</li>
+              <li>Cyberpunk 2077</li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h3>Стратегія</h3>
+            <ul>
+              <li>Age of Empires IV</li>
+              <li>Sid Meier's Civilization VI</li>
+              <li>Total War: Warhammer III</li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h3>Пригоди</h3>
+            <ul>
+              <li>The Legend of Zelda: Breath of the Wild</li>
+              <li>Horizon Zero Dawn</li>
+              <li>Uncharted 4: A Thief's End</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-md-4">
+            <h3>РПГ</h3>
+            <ul>
+              <li>The Witcher 3: Wild Hunt</li>
+              <li>Dark Souls III</li>
+              <li>Elden Ring</li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h3>Хорор</h3>
+            <ul>
+              <li>Resident Evil Village</li>
+              <li>Outlast</li>
+              <li>Amnesia: The Dark Descent</li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h3>Шутери</h3>
+            <ul>
+              <li>Counter-Strike: Global Offensive</li>
+              <li>DOOM Eternal</li>
+              <li>Call of Duty: Modern Warfare II</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Секция новин -->
+    <section id="blog">
+      <h2 class="text-center my-4">Блог та останні новини</h2>
+      <div class="container">
+        <div id="newsCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <!-- Слайды новин (оставлены без изменений) -->
+          </div>
+
+          <!-- Кнопки для перемикання каруселі -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#newsCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Попередній</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#newsCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Наступний</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Секция контактов -->
+    <section id="contact">
+      <h2 class="text-center my-4">Написати мені</h2>
+      <footer>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+      </footer>
+    </section>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,976 @@
+[
+  {
+    "title": "Rust",
+    "description": "Єдина мета Rust - вижити.",
+    "price": "10",
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/252490/header.jpg?t=1727957298",
+    "link": "https://store.steampowered.com/app/252490/Rust/",
+    "genre": "survival"
+   
+  },
+  {
+    "title": "Nine Sols",
+    "description": "Nine Sols - це насичена сюжетом двовимірна гра в жанрі екшн-платформер з бойовою системою",
+    "price": "12",
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1809540/header.jpg?t=1725277458",
+    "link": "https://store.steampowered.com/app/1809540/Nine_Sols/",
+    "genre": "action"
+
+  },
+  {
+    "title": "Sons Of The Forest",
+    "description": "Уповні новий досвід від майстрів 'The Forest'",
+    "price": "11",
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1326470/header.jpg?t=1708624856",
+    "link": "https://store.steampowered.com/app/1326470/Sons_of_the_Forest/",
+    "genre": "survival"
+ 
+  },
+  {
+    "title": "Resident Evil 4",
+    "description": "Вижити – це лише перший крок.",
+    "price": "9",
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2050650/header.jpg?t=1731387968",
+    "link": "https://store.steampowered.com/app/2050650/Resident_Evil_4/",
+    "genre": "horror"
+ 
+  },
+  {
+    "title": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+    "description": "Відкрийте для себе легендарний всесвіт STALKER і отримайте незабутній досвід",
+    "price": "16",
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1643320/header.jpg?t=1732271704",
+    "link": "https://store.steampowered.com/app/1643320/STALKER_2_Heart_of_Chornobyl/",
+    "genre": "action"
+ 
+  },
+  {
+    "title": "Content Warning",
+    "description": "Content Warning - кооператив у жанрі хорор. Спробуйте залишитися живими та стати зірками SpöökTube, знімаючи моторошні відео зі своїми друзями.",
+    "price": "5",
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2881650/header.jpg?t=1730715284",
+    "link": "https://store.steampowered.com/app/2881650/Content_Warning/",
+    "genre": "horror"
+ 
+  },
+  {
+    "title": "Far Cry® 5",
+    "description": "Ласкаво просимо до округу Хоуп (штат Монтана), де живуть вільні сміливі люди і знайшла собі притулок фанатична секта, яка чекає на кінець світу",
+    "price": "15",
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/552520/header.jpg?t=1694554810",
+    "link": "https://store.steampowered.com/app/552520/Far_Cry_5/",
+    "genre": "action"
+  
+  },
+  {
+    "title": "Car Manufacture",
+    "description": "Car Manufacture - це гра про створення та керування автомобільним заводом на початку XX століття.",
+    "price": "13",
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/983380/header.jpg?t=1732737979",
+    "link": "https://store.steampowered.com/app/983380/Car_Manufacture/",
+    "genre": "simulation"
+ 
+  },
+  {
+    "title": "Хаус Флиппер 2",
+    "description": "Неважливо, ви буваний ремонтник або тільки починаєте - тут ви будете як вдома!",
+    "price": "9",
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1190970/header.jpg?t=1730122488",
+    "link": "https://store.steampowered.com/app/1190970/House_Flipper_2/",
+    "genre": "simulation"
+  
+  },
+  {
+    "title": "Witchfire",
+    "description": "Witchfire є єдиним гравцем RPG стрільцем з креативних мандрів за Painkiller and Bulletstorm",
+    "price": "12",
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3156770/header.jpg?t=1727106714",
+    "link": "https://store.steampowered.com/app/3156770/Witchfire/",
+    "genre": "action"
+  },
+  {
+    "title": "EA SPORTS FC™ 25",
+    "description": "Представляємо Клубну спільноту - наступний етап лояльності в EA SPORTS FC™ 25",
+    "price": "12",
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2669320/header.jpg?t=1730828565",
+    "link": "https://store.steampowered.com/app/2669320/EA_SPORTS_FC_25/",
+    "genre": "sports"
+  },
+  {
+    "title": "Subnautica",
+    "description": "Subnautica - це підводна пригодницька гра в сукупності з чужою океанічною планетою. На вас чекає величезний відкритий світ, повний чудес та небезпек!",
+    "price": "14",
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/264710/header.jpg?t=1729208919",
+    "link": "https://store.steampowered.com/app/264710/Subnautica/",
+    "genre": "adventure"
+  },
+  {
+    "title": "Baldur's Gate 3",
+    "description": "Епічна RPG із глибоким сюжетом, захоплюючими битвами і візуальною красотою.",
+    "price": "59.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1086940/header.jpg",
+    "link": "https://store.steampowered.com/app/1086940/Baldurs_Gate_3/",
+    "genre": "rpg"
+  },
+  {
+    "title": "Hogwarts Legacy",
+    "description": "Пригодницька гра у всесвіті Гаррі Поттера, яка дозволяє стати студентом Гоґвортсу.",
+    "price": "29.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/990080/header.jpg",
+    "link": "https://store.steampowered.com/app/990080/Hogwarts_Legacy/",
+    "genre": "adventure"
+  },
+  {
+    "title": "Starfield",
+    "description": "Грандіозна космічна RPG від Bethesda Game Studios.",
+    "price": "69.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1716740/header.jpg",
+    "link": "https://store.steampowered.com/app/1716740/Starfield/",
+    "genre": "rpg"
+  },
+  {
+    "title": "Resident Evil 4 (2023)",
+    "description": "Ремейк культового хорору з покращеною графікою та геймплеєм.",
+    "price": "39.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/2050650/header.jpg",
+    "link": "https://store.steampowered.com/app/2050650/Resident_Evil_4_2023/",
+    "genre": "horror"
+  },
+  {
+    "title": "Cyberpunk 2077: Phantom Liberty",
+    "description": "Додаток до Cyberpunk 2077 з новим сюжетом і локаціями.",
+    "price": "29.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/2138330/header.jpg",
+    "link": "https://store.steampowered.com/app/2138330/Cyberpunk_2077_Phantom_Liberty/",
+    "genre": "rpg"
+  },
+  {
+    "title": "Sons of the Forest",
+    "description": "Виживання в дикій природі з елементами хорору.",
+    "price": "29.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1326470/header.jpg",
+    "link": "https://store.steampowered.com/app/1326470/Sons_of_the_Forest/",
+    "genre": "survival"
+  },
+  {
+    "title": "Counter-Strike 2",
+    "description": "Оновлена версія культового шутера з новою графікою та механіками.",
+    "price": "0",
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/730/header.jpg?t=1729703045",
+    "link": "https://store.steampowered.com/app/730/CounterStrike_2/",
+    "genre": "shooter"
+  },
+  {
+    "title": "Soundpad",
+    "description": "Якісне відтворення звуків у голосових чатах (використовується цифрове перетворення)",
+    "price": "5",
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/629520/header.jpg?t=1729345861",
+    "link": "https://store.steampowered.com/app/730/CounterStrike_2/",
+    "genre": "utility"
+  },
+  {
+    "title": "VRHandsFrame",
+    "description": "VRHandsFrame is epoch-making VR overlay application, що дозволяли вам до скрап і analyzovat наш VR view with intuitive hand gestures.",
+    "price": "37",
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2324090/header.jpg?t=1732816394",
+    "link": "https://store.steampowered.com/app/2324090/VRHandsFrame/",
+    "genre": "utility"
+  },
+  {
+    "title": "Razer Cortex",
+    "description": "Razer Cortex допомагає оптимізувати вашу систему для ігор, покращуючи продуктивність та дозволяючи знижувати навантаження на ресурси.",
+    "price": "0",
+    "image": "data:image/png;base64,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",
+    "link": "https://store.steampowered.com/app/637090/Razer_Cortex/",
+    "genre": "utility"
+  },
+  {
+    "title": "OBS Studio",
+    "description": "OBS Studio - популярна програма для стрімінгу і запису відео з екрану комп'ютера.",
+    "price": "0",
+    "image": "data:image/jpeg;base64,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",
+    "link": "https://store.steampowered.com/app/714840/OBS_Studio/",
+    "genre": "utility"
+  },
+  {
+    "title": "CCleaner",
+    "description": "CCleaner - інструмент для очищення комп'ютера від непотрібних файлів і оптимізації роботи системи.",
+    "price": "24.95",
+    "image": "data:image/jpeg;base64,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",
+    "link": "https://store.steampowered.com/app/1824820/CCleaner/",
+    "genre": "utility"
+  },
+  {
+    "title": "NVIDIA GeForce Experience",
+    "description": "GeForce Experience дозволяє автоматично оптимізувати налаштування ігор і записувати ігрові моменти.",
+    "price": "0",
+    "image": "data:image/png;base64,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",
+    "link": "https://store.steampowered.com/app/1299370/NVIDIA_GeForce_Experience/",
+    "genre": "utility"
+  },
+  {
+    "title": "WinRAR",
+    "description": "WinRAR - програма для стиснення файлів і створення архівів у форматі RAR і ZIP.",
+    "price": "29.99",
+    "image": "data:image/jpeg;base64,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",
+    "link": "https://store.steampowered.com/app/1440940/WinRAR/",
+    "genre": "utility"
+  },
+  {
+    "title": "Steam Cleaner",
+    "description": "Steam Cleaner - інструмент для очищення кешу і зайвих файлів, що зберігаються в клієнті Steam.",
+    "price": "0",
+    "image": "https://winsoft.com.ua/images/stories/flexicontent/item_798_field_15/m_steamcleaner_icon-1.png",
+    "link": "https://store.steampowered.com/app/835910/Steam_Cleaner/",
+    "genre": "utility"
+  },
+  {
+    "title": "IObit Uninstaller",
+    "description": "IObit Uninstaller дозволяє ефективно видаляти програми і очищати їх залишки з вашої системи.",
+    "price": "19.99",
+    "image": "data:image/jpeg;base64,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",
+    "link": "https://store.steampowered.com/app/1444660/IObit_Uninstaller/",
+    "genre": "utility"
+  },
+  {
+    "title": "AIDA64",
+    "description": "AIDA64 надає детальну інформацію про апаратну частину комп'ютера і дозволяє проводити тести на стабільність.",
+    "price": "39.99",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgU5_tjXop_ujuL3iz0tYoQlsYgUEPedf0Bg&s",
+    "link": "https://store.steampowered.com/app/611570/AIDA64/",
+    "genre": "utility"
+  },
+  {
+    "title": "Dark Souls III",
+    "description": "Респектабельна RPG з хардкорними боями, епічними босами та похмурою атмосферою.",
+    "price": "59.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/374320/header.jpg",
+    "link": "https://store.steampowered.com/app/374320/Dark_Souls_III/",
+    "genre": "rpg"
+  },
+  {
+    "title": "Monster Hunter: World",
+    "description": "Пригодницька RPG, де ви стаєте мисливцем на чудовиськ в неймовірно красивому світі.",
+    "price": "29.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/582010/header.jpg",
+    "link": "https://store.steampowered.com/app/582010/Monster_Hunter_World/",
+    "genre": "rpg"
+  },
+  {
+    "title": "Fallout 4",
+    "description": "Неймовірна постапокаліптична RPG, де ви досліджуєте відкритий світ, що зруйнований ядерною війною.",
+    "price": "39.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/377160/header.jpg",
+    "link": "https://store.steampowered.com/app/377160/Fallout_4/",
+    "genre": "rpg"
+  },
+  {
+    "title": "Skyrim Special Edition",
+    "description": "Один з найбільших світів RPG, де ви можете стати Драконорізом і врятувати світ від руйнування.",
+    "price": "39.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/489830/header.jpg",
+    "link": "https://store.steampowered.com/app/489830/The_Elder_Scrolls_V_Skyrim_Special_Edition/",
+    "genre": "rpg"
+  },
+  {
+    "title": "Pillars of Eternity II: Deadfire",
+    "description": "Глибока RPG з великою кількістю виборів і тактичними боями, що перенесе вас в атмосферу старих класичних RPG.",
+    "price": "49.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/560130/header.jpg",
+    "link": "https://store.steampowered.com/app/560130/Pillars_of_Eternity_II_Deadfire/",
+    "genre": "rpg"
+  },
+  {
+    "title": "Tales of Vesperia: Definitive Edition",
+    "description": "Пригодницька японська RPG, де ви стаєте частиною епічної подорожі, що змінить світ.",
+    "price": "49.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/929030/header.jpg",
+    "link": "https://store.steampowered.com/app/929030/Tales_of_Vesperia_Definitive_Edition/",
+    "genre": "rpg"
+  },
+  {
+    "title": "The Sims 4",
+    "description": "Создавайте и управляйте жизнью персонажей в этом увлекательном симуляторе жизни.",
+    "price": "39.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1222670/header.jpg",
+    "link": "https://store.steampowered.com/app/1222670/The_Sims_4/",
+    "genre": "simulation"
+  },
+  {
+    "title": "Microsoft Flight Simulator",
+    "description": "Невероятно реалистичный симулятор полетов с детализированными картами и потрясающей графикой.",
+    "price": "59.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1250410/header.jpg",
+    "link": "https://store.steampowered.com/app/1250410/Microsoft_Flight_Simulator/",
+    "genre": "simulation"
+  },
+  {
+    "title": "Euro Truck Simulator 2",
+    "description": "Стать водителем большегрузного автомобиля и путешествовать по Европе, выполняя задания.",
+    "price": "19.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/227300/header.jpg",
+    "link": "https://store.steampowered.com/app/227300/Euro_Truck_Simulator_2/",
+    "genre": "simulation"
+  },
+  {
+    "title": "Planet Coaster",
+    "description": "Создайте свой идеальный парк аттракционов в этом детализированном симуляторе строительства.",
+    "price": "39.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/493340/header.jpg",
+    "link": "https://store.steampowered.com/app/493340/Planet_Coaster/",
+    "genre": "simulation"
+  },
+  {
+    "title": "SimCity 4 Deluxe Edition",
+    "description": "Постройте и управляйте целым городом в классическом градостроительном симуляторе.",
+    "price": "9.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/24780/header.jpg",
+    "link": "https://store.steampowered.com/app/24780/SimCity_4_Deluxe_Edition/",
+    "genre": "simulation"
+  },
+  {
+    "title": "Farming Simulator 22",
+    "description": "Развивайте свою ферму, выращивайте урожай и ухаживайте за животными в этом реалистичном симуляторе фермерства.",
+    "price": "49.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1344270/header.jpg",
+    "link": "https://store.steampowered.com/app/1344270/Farming_Simulator_22/",
+    "genre": "simulation"
+  },
+  {
+    "title": "Cities: Skylines",
+    "description": "Градостроительный симулятор, в котором вы создаете и управляете своим городом, принимая решения на каждом уровне.",
+    "price": "29.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/255710/header.jpg",
+    "link": "https://store.steampowered.com/app/255710/Cities_Skylines/",
+    "genre": "simulation"
+  },
+  {
+    "title": "Train Sim World 3",
+    "description": "Пройдите путь машиниста по живописным железнодорожным маршрутам в этой захватывающей симуляции поезда.",
+    "price": "39.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1333320/header.jpg",
+    "link": "https://store.steampowered.com/app/1333320/Train_Sim_World_3/",
+    "genre": "simulation"
+  },
+  {
+    "title": "Kerbal Space Program",
+    "description": "Симулятор космических исследований, где вы создаете ракеты и отправляете их в космос с реальными физическими расчетами.",
+    "price": "39.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/220200/header.jpg",
+    "link": "https://store.steampowered.com/app/220200/Kerbal_Space_Program/",
+    "genre": "simulation"
+  },
+  {
+    "title": "RollerCoaster Tycoon Classic",
+    "description": "Создайте и управляйте тематическим парком с аттракционами в классическом симуляторе.",
+    "price": "14.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/507970/header.jpg",
+    "link": "https://store.steampowered.com/app/507970/RollerCoaster_Tycoon_Classic/",
+    "genre": "simulation"
+  },
+  {
+    "title": "DOOM Eternal",
+    "description": "Одна из самых мощных игр в жанре шутера, где вы сражаетесь с демонами в адском мире.",
+    "price": "59.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/782330/header.jpg",
+    "link": "https://store.steampowered.com/app/782330/DOOM_Eternal/",
+    "genre": "action"
+  },
+  {
+    "title": "DOOM Eternal",
+    "description": "Одна из самых мощных игр в жанре шутера, где вы сражаетесь с демонами в адском мире.",
+    "price": "59.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/782330/header.jpg",
+    "link": "https://store.steampowered.com/app/782330/DOOM_Eternal/",
+    "genre": "action"
+  },
+  {
+    "title": "Control",
+    "description": "Станьте частью секретной организации, исследуйте сверхъестественные силы и преодолевайте опасные препятствия.",
+    "price": "39.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/870780/header.jpg",
+    "link": "https://store.steampowered.com/app/870780/Control/",
+    "genre": "action"
+  },
+  {
+    "title": "Sekiro: Shadows Die Twice",
+    "description": "Реализуйте свои боевые навыки в японском феодальном мире, борясь с врагами в стиле экшн-эксплорации.",
+    "price": "59.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/814380/header.jpg",
+    "link": "https://store.steampowered.com/app/814380/Sekiro_Shadows_Die_Twice/",
+    "genre": "action"
+  },
+  {
+    "title": "Hades",
+    "description": "Проходите подземелья, боритесь с мифологическими существами и стремитесь к освобождению из царства мертвых.",
+    "price": "24.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1145360/header.jpg",
+    "link": "https://store.steampowered.com/app/1145360/Hades/",
+    "genre": "action"
+  },
+  {
+    "title": "Assassin's Creed Valhalla",
+    "description": "Стать викингом и исследовать древнюю Британию и Норвегию в этой эпической истории о завоеваниях.",
+    "price": "59.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/782330/header.jpg",
+    "link": "https://store.steampowered.com/app/782330/Assassins_Creed_Valhalla/",
+    "genre": "action"
+  },
+  {
+    "title": "Mortal Kombat 11",
+    "description": "Приготовьтесь к жестоким боям с супергероями и злодеями в захватывающей аркадной файтинг-игре.",
+    "price": "59.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/976310/header.jpg",
+    "link": "https://store.steampowered.com/app/976310/Mortal_Kombat_11/",
+    "genre": "action"
+  },
+  {
+    "title": "Batman: Arkham Knight",
+    "description": "Станьте Бэтменом и защитите Готэм-Сити в этой насыщенной экшеном игре с элементами стелса.",
+    "price": "19.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/208650/header.jpg",
+    "link": "https://store.steampowered.com/app/208650/Batman_Arkham_Knight/",
+    "genre": "action"
+  },
+  {
+    "title": "Shadow of the Tomb Raider",
+    "description": "Пройдите через джунгли и руины, сражайтесь с врагами и раскрывайте тайны в этой игре с элементами приключений.",
+    "price": "49.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/750920/header.jpg",
+    "link": "https://store.steampowered.com/app/750920/Shadow_of_the_Tomb_Raider/",
+    "genre": "action"
+  },
+  {
+    "title": "FIFA 23",
+    "description": "Последняя версия популярного футбольного симулятора, где вы можете играть за свои любимые команды и управлять ими.",
+    "price": "59.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1644960/header.jpg",
+    "link": "https://store.steampowered.com/app/1644960/FIFA_23/",
+    "genre": "sports"
+  },
+  {
+    "title": "NBA 2K23",
+    "description": "Популярный баскетбольный симулятор, предлагающий как одиночный, так и многопользовательский режим с улучшенной графикой и механиками.",
+    "price": "59.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1786980/header.jpg",
+    "link": "https://store.steampowered.com/app/1786980/NBA_2K23/",
+    "genre": "sports"
+  },
+  {
+    "title": "Rocket League",
+    "description": "Уникальная игра, сочетающая футбол и автомобили, где игроки управляют машинками и играют в футбол на большом стадионе.",
+    "price": "19.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
+    "link": "https://store.steampowered.com/app/252950/Rocket_League/",
+    "genre": "sports"
+  },
+  {
+    "title": "Pro Evolution Soccer 2021 Season Update",
+    "description": "Воспользуйтесь самым актуальным футбольным симулятором с новыми командами и обновлениями для сезонов.",
+    "price": "29.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1522700/header.jpg",
+    "link": "https://store.steampowered.com/app/1522700/Pro_Evolution_Soccer_2021_Season_Update/",
+    "genre": "sports"
+  },
+  {
+    "title": "Madden NFL 23",
+    "description": "Играйте в американский футбол, управляя своими любимыми командами в этой глубокой спортивной симуляции.",
+    "price": "59.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1467360/header.jpg",
+    "link": "https://store.steampowered.com/app/1467360/Madden_NFL_23/",
+    "genre": "sports"
+  },
+  {
+    "title": "WWE 2K Battlegrounds",
+    "description": "Аркадный бой с участниками WWE в мультяшной графике, где вы можете сражаться с друзьями или в одиночку.",
+    "price": "19.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1039730/header.jpg",
+    "link": "https://store.steampowered.com/app/1039730/WWE_2K_Battlegrounds/",
+    "genre": "sports"
+  },
+  {
+    "title": "F1 23",
+    "description": "Погрузитесь в мир Формулы 1 с реалистичными гонками, полным набором машин и команд.",
+    "price": "59.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1842170/header.jpg",
+    "link": "https://store.steampowered.com/app/1842170/F1_23/",
+    "genre": "sports"
+  },
+  {
+    "title": "Tennis World Tour 2",
+    "description": "Станьте профессионалом тенниса в этой игре с реалистичной физикой и моделями движения.",
+    "price": "39.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1225120/header.jpg",
+    "link": "https://store.steampowered.com/app/1225120/Tennis_World_Tour_2/",
+    "genre": "sports"
+  },
+  {
+    "title": "Riders Republic",
+    "description": "Откройте для себя экстремальные виды спорта, включая сноубординг, горный велосипед и скейтбординг в открытом мире.",
+    "price": "59.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1080440/header.jpg",
+    "link": "https://store.steampowered.com/app/1080440/Riders_Republic/",
+    "genre": "sports"
+  },
+  {
+    "title": "The Golf Club 2019 featuring PGA TOUR",
+    "description": "В этой игре вас ждет симуляция гольфа с реалистичной физикой и известными игроками PGA TOUR.",
+    "price": "39.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/819740/header.jpg",
+    "link": "https://store.steampowered.com/app/819740/The_Golf_Club_2019_featuring_PGA_TOUR/",
+    "genre": "sports"
+  },
+  {
+    "title": "Tales of Arise",
+    "description": "Японская RPG с увлекательным сюжетом и яркой боевой системой, рассказывающая историю борьбы за свободу.",
+    "price": "59.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1200520/header.jpg",
+    "link": "https://store.steampowered.com/app/1200520/Tales_of_Arise/",
+    "genre": "adventure"
+  },
+  {
+    "title": "The Legend of Zelda: Breath of the Wild",
+    "description": "Открытый мир и приключения в роли Линка в одной из самых популярных игр всех времен, доступной через эмуляторы на ПК.",
+    "price": "59.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1064420/header.jpg",
+    "link": "https://store.steampowered.com/app/1064420/The_Legend_of_Zelda_Breath_of_the_Wild/",
+    "genre": "adventure"
+  },
+  {
+    "title": "Minecraft",
+    "description": "Игра-приключение в открытом мире, где вы можете строить, исследовать и выживать в случайно генерируемых мирах.",
+    "price": "26.95",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/738590/header.jpg",
+    "link": "https://store.steampowered.com/app/738590/Minecraft/",
+    "genre": "adventure"
+  },
+  {
+    "title": "Horizon Zero Dawn",
+    "description": "Приключенческая игра с открытым миром, в которой вы играете за девушку-охотницу в мире, населенном гигантскими роботами.",
+    "price": "49.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1151640/header.jpg",
+    "link": "https://store.steampowered.com/app/1151640/Horizon_Zero_Dawn_Complete_Edition/",
+    "genre": "adventure"
+  },
+  {
+    "title": "Uncharted: The Nathan Drake Collection",
+    "description": "Коллекция приключенческих игр, в которых вы следуете за поисками сокровищ и опасными приключениями Нейтана Дрейка.",
+    "price": "39.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/272370/header.jpg",
+    "link": "https://store.steampowered.com/app/272370/Uncharted_The_Nathan_Drake_Collection/",
+    "genre": "adventure"
+  },
+  {
+    "title": "Life is Strange: True Colors",
+    "description": "Приключенческая игра, где вы играете за девушку с уникальной способностью читать эмоции людей и исследовать их секреты.",
+    "price": "59.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/936780/header.jpg",
+    "link": "https://store.steampowered.com/app/936780/Life_is_Strange_True_Colors/",
+    "genre": "adventure"
+  },
+  {
+    "title": "Assassin's Creed Odyssey",
+    "description": "Приключенческая RPG в открытом мире, которая переносит вас в Древнюю Грецию с возможностью выбора стороны в войне и огромным миром для исследования.",
+    "price": "49.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/812140/header.jpg",
+    "link": "https://store.steampowered.com/app/812140/Assassins_Creed_Odyssey/",
+    "genre": "adventure"
+  },
+  {
+    "title": "Grim Fandango Remastered",
+    "description": "Культовая приключенческая игра, в которой вы играете за душу, отправляющуюся на поиски своего пути в загробный мир, в стилизованной мертвецкой вселенной.",
+    "price": "14.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/316780/header.jpg",
+    "link": "https://store.steampowered.com/app/316780/Grim_Fandango_Remastered/",
+    "genre": "adventure"
+  },
+  {
+    "title": "Resident Evil Village",
+    "description": "Ужасающий хоррор, где вы играете за Итана Уинтерса, пытающегося спасти свою дочь от темных сил в таинственной деревне.",
+    "price": "59.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1196590/header.jpg",
+    "link": "https://store.steampowered.com/app/1196590/Resident_Evil_Village/",
+    "genre": "horror"
+  },
+  {
+    "title": "Phasmophobia",
+    "description": "Кооперативная игра на выживание, где группа игроков занимается охотой на привидений, используя различные инструменты для исследования.",
+    "price": "13.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/739630/header.jpg",
+    "link": "https://store.steampowered.com/app/739630/Phasmophobia/",
+    "genre": "horror"
+  },
+  {
+    "title": "Outlast",
+    "description": "Переживите ужас в этом психологическом хорроре, где вы играете за журналиста, который исследует психиатрическую больницу, полную жутких тайн.",
+    "price": "19.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/238320/header.jpg",
+    "link": "https://store.steampowered.com/app/238320/Outlast/",
+    "genre": "horror"
+  },
+  {
+    "title": "Amnesia: The Dark Descent",
+    "description": "Классический хоррор, в котором вы играете за потерянного человека в темном замке, наполненном пугающими тайнами.",
+    "price": "19.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/57300/header.jpg",
+    "link": "https://store.steampowered.com/app/57300/Amnesia_The_Dark_Descent/",
+    "genre": "horror"
+  },
+  {
+    "title": "Silent Hill 2",
+    "description": "Легендарный хоррор, в котором вы исследуете мрачный город, чтобы раскрыть жуткие тайны, преследующие вас.",
+    "price": "19.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/295250/header.jpg",
+    "link": "https://store.steampowered.com/app/295250/Silent_Hill_2/",
+    "genre": "horror"
+  },
+  {
+    "title": "The Dark Pictures Anthology: Man of Medan",
+    "description": "Мистический хоррор, в котором группа друзей оказывается на таинственном корабле, полном опасностей и ужаса.",
+    "price": "29.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1007740/header.jpg",
+    "link": "https://store.steampowered.com/app/1007740/The_Dark_Pictures_Anthology_Man_of_Medan/",
+    "genre": "horror"
+  },
+  {
+    "title": "Layers of Fear",
+    "description": "Психологический хоррор, который следует за художником, исследующим мрачные и искаженные переживания в поисках вдохновения.",
+    "price": "19.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/391720/header.jpg",
+    "link": "https://store.steampowered.com/app/391720/Layers_of_Fear/",
+    "genre": "horror"
+  },
+  {
+    "title": "Dead by Daylight",
+    "description": "Онлайн хоррор, где игроки могут выбрать роль выжившего или маньяка, который преследует и убивает других игроков.",
+    "price": "19.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/381210/header.jpg",
+    "link": "https://store.steampowered.com/app/381210/Dead_by_Daylight/",
+    "genre": "horror"
+  },
+  {
+    "title": "Until Dawn",
+    "description": "Выживание в ужасном приключении, где группа подростков пытается пережить ночь в мрачном лесу, полном мистических угроз.",
+    "price": "29.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/361050/header.jpg",
+    "link": "https://store.steampowered.com/app/361050/Until_Dawn/",
+    "genre": "horror"
+  },
+  {
+    "title": "Fatal Frame / Project Zero: Maiden of Black Water",
+    "description": "Японский хоррор, в котором вы используете камеру для поимки духов и раскрытия жутких тайн темного мира.",
+    "price": "49.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/974710/header.jpg",
+    "link": "https://store.steampowered.com/app/974710/Fatal_Frame_Project_Zero_Maiden_of_Black_Water/",
+    "genre": "horror"
+  }
+  ,
+  {
+    "title": "Green Hell",
+    "description": "Выживание в тропическом лесу Амазонки, где вы сталкиваетесь с дикой природой, болезнями и психическим истощением.",
+    "price": "24.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/899770/header.jpg",
+    "link": "https://store.steampowered.com/app/899770/Green_Hell/",
+    "genre": "survival"
+  },
+  {
+    "title": "7 Days to Die",
+    "description": "Песочница на выживание в мире, полном зомби. Стройте, охотьтесь, сражайтесь и выживайте в условиях постапокалипсиса.",
+    "price": "24.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/251570/header.jpg",
+    "link": "https://store.steampowered.com/app/251570/7_Days_to_Die/",
+    "genre": "survival"
+  },
+  {
+    "title": "ARK: Survival Evolved",
+    "description": "Исследуйте доисторический мир, полный динозавров и других опасных существ. Построение базы и выживание в открытом мире.",
+    "price": "39.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/346110/header.jpg",
+    "link": "https://store.steampowered.com/app/346110/ARK_Survival_Evolved/",
+    "genre": "survival"
+  },
+  
+  {
+    "title": "The Long Dark",
+    "description": "Выживание в канадской зиме после глобальной катастрофы. Исследуйте пустые земли, охотьтесь, стройте укрытия и боритесь с природой.",
+    "price": "19.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/305620/header.jpg",
+    "link": "https://store.steampowered.com/app/305620/The_Long_Dark/",
+    "genre": "survival"
+  },
+  {
+    "title": "Don't Starve",
+    "description": "Стильная игра на выживание, где вам предстоит выжить в мире, полном чудовищ и непредсказуемых погодных условий.",
+    "price": "14.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/219740/header.jpg",
+    "link": "https://store.steampowered.com/app/219740/Dont_Starve/",
+    "genre": "survival"
+  },
+  {
+    "title": "No Man's Sky",
+    "description": "Исследуйте бескрайний космос, строьте базы, добывайте ресурсы и выживайте на неизведанных планетах в огромном открытом мире.",
+    "price": "59.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/275850/header.jpg",
+    "link": "https://store.steampowered.com/app/275850/No_Mans_Sky/",
+    "genre": "survival"
+  },
+  {
+    "title": "Minecraft",
+    "description": "Культовая игра на выживание, где вы можете строить, собирать ресурсы и выживать в бескрайних мирах, генерируемых случайным образом.",
+    "price": "26.95",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/47924/header.jpg",
+    "link": "https://store.steampowered.com/app/47924/Minecraft/",
+    "genre": "survival"
+  },
+  {
+    "title": "Call of Duty: Modern Warfare II",
+    "description": "Оновлений шутер з популярної серії Call of Duty з новими картами та механіками гри.",
+    "price": "69.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1938090/header.jpg",
+    "link": "https://store.steampowered.com/app/1938090/Call_of_Duty_Modern_Warfare_II/",
+    "genre": "shooter"
+  },
+  {
+    "title": "Battlefield 2042",
+    "description": "Шутер від першої особи з великомасштабними битвами та сучасними технологіями на полі бою.",
+    "price": "39.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1517280/header.jpg",
+    "link": "https://store.steampowered.com/app/1517280/Battlefield_2042/",
+    "genre": "shooter"
+  },
+  {
+    "title": "Apex Legends",
+    "description": "Мультиплеєрний королівський бій з героями, що мають унікальні здібності, та швидкими та динамічними боями.",
+    "price": "0",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1172470/header.jpg",
+    "link": "https://store.steampowered.com/app/1172470/Apex_Legends/",
+    "genre": "shooter"
+  },
+  {
+    "title": "Overwatch 2",
+    "description": "Командний шутер з героїчними персонажами, де кожен має унікальні здібності для командної боротьби.",
+    "price": "0",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1576780/header.jpg",
+    "link": "https://store.steampowered.com/app/1576780/Overwatch_2/",
+    "genre": "shooter"
+  },
+  {
+    "title": "Valorant",
+    "description": "Мультіплеєрний тактичний шутер, де кожен герой має свої унікальні здібності, і де важлива стратегія та точність.",
+    "price": "0",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1946300/header.jpg",
+    "link": "https://store.steampowered.com/app/1946300/Valorant/",
+    "genre": "shooter"
+  },
+  {
+    "title": "Paladins",
+    "description": "Командний шутер з героями, кожен з яких має свої унікальні здібності. Цей безкоштовний шутер дуже схожий на Overwatch.",
+    "price": "0",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/444090/header.jpg",
+    "link": "https://store.steampowered.com/app/444090/Paladins/",
+    "genre": "shooter"
+  },
+  {
+    "title": "Team Fortress 2",
+    "description": "Класичний командний шутер з чіткою роллю кожного персонажа. Відсутність інтерфейсу допомагає зосередитись на командній грі.",
+    "price": "0",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/440/header.jpg",
+    "link": "https://store.steampowered.com/app/440/Team_Fortress_2/",
+    "genre": "shooter"
+  },
+  {
+    "title": "Warframe",
+    "description": "Мультиплеєрний шутер від третьої особи, де ви виступаєте як член древнього ордена воїнів, які борються в космосі.",
+    "price": "0",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/230410/header.jpg",
+    "link": "https://store.steampowered.com/app/230410/Warframe/",
+    "genre": "shooter"
+  },
+  {
+    "title": "Stellaris",
+    "description": "Глобальная стратегия в космосе, позволяющая исследовать, строить и сражаться за будущее вашей цивилизации.",
+    "price": "9.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/281990/header.jpg?t=1696377000",
+    "link": "https://store.steampowered.com/app/281990/Stellaris/",
+    "genre": "strategy"
+  },
+  {
+    "title": "Total War: WARHAMMER III",
+    "description": "Эпическая стратегия с тактическими боями во вселенной Warhammer.",
+    "price": "63.13",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1142710/header.jpg?t=1692637275",
+    "link": "https://store.steampowered.com/app/1142710/Total_War_WARHAMMER_III/",
+    "genre": "strategy"
+  },
+  {
+    "title": "Dune: Spice Wars",
+    "description": "Гибрид 4X и RTS во вселенной Дюны. Борьба за специю начинается.",
+    "price": "17.49",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1605220/header.jpg?t=1697561235",
+    "link": "https://store.steampowered.com/app/1605220/Dune_Spice_Wars/",
+    "genre": "strategy"
+  },
+  {
+    "title": "Civilization VI",
+    "description": "Пошаговая стратегия, где вы создаете и развиваете империю от античности до современности.",
+    "price": "59.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/289070/header.jpg?t=1696622416",
+    "link": "https://store.steampowered.com/app/289070/Sid_Meiers_Civilization_VI/",
+    "genre": "strategy"
+  },
+  {
+    "title": "Company of Heroes 3",
+    "description": "Тактическая RTS во времена Второй мировой войны с фокусом на динамические бои.",
+    "price": "59.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1677280/header.jpg?t=1695667093",
+    "link": "https://store.steampowered.com/app/1677280/Company_of_Heroes_3/",
+    "genre": "strategy"
+  },
+  {
+    "title": "Age of Empires IV",
+    "description": "Историческая RTS с масштабными битвами и развитием цивилизаций.",
+    "price": "39.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1466860/header.jpg?t=1697182031",
+    "link": "https://store.steampowered.com/app/1466860/Age_of_Empires_IV/",
+    "genre": "strategy"
+  },
+  {
+    "title": "Crusader Kings III",
+    "description": "Глобальная стратегия с акцентом на династию, интриги и управление.",
+    "price": "49.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1158310/header.jpg?t=1695726340",
+    "link": "https://store.steampowered.com/app/1158310/Crusader_Kings_III/",
+    "genre": "strategy"
+  },
+  {
+    "title": "Frostpunk",
+    "description": "Городостроительный симулятор выживания в постапокалиптическом мире.",
+    "price": "29.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/323190/header.jpg?t=1692370076",
+    "link": "https://store.steampowered.com/app/323190/Frostpunk/",
+    "genre": "strategy"
+  },
+  {
+    "title": "XCOM 2",
+    "description": "Пошаговая тактическая стратегия с элементами управления базой.",
+    "price": "59.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/268500/header.jpg?t=1674220510",
+    "link": "https://store.steampowered.com/app/268500/XCOM_2/",
+    "genre": "strategy"
+  },
+  {
+    "title": "Warhammer 40,000: Gladius – Relics of War",
+    "description": "4X-стратегия в мрачной вселенной Warhammer 40K.",
+    "price": "39.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/489630/header.jpg?t=1692177407",
+    "link": "https://store.steampowered.com/app/489630/Warhammer_40000_Gladius__Relics_of_War/",
+    "genre": "strategy"
+  },
+  {
+    "title": "Anno 1800",
+    "description": "Градостроительный симулятор с элементами экономики и торговли.",
+    "price": "59.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/916440/header.jpg?t=1696962714",
+    "link": "https://store.steampowered.com/app/916440/Anno_1800/",
+    "genre": "strategy"
+  },
+  {
+    "title": "Victoria 3",
+    "description": "Глобальная стратегия, сосредоточенная на управлении экономикой и дипломатией.",
+    "price": "49.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/529340/header.jpg?t=1696958615",
+    "link": "https://store.steampowered.com/app/529340/Victoria_3/",
+    "genre": "strategy"
+  },
+  {
+    "title": "Endless Space 2",
+    "description": "Галактическая 4X-стратегия с красивым визуальным стилем.",
+    "price": "39.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/392110/header.jpg?t=1692960383",
+    "link": "https://store.steampowered.com/app/392110/Endless_Space_2/",
+    "genre": "strategy"
+  },
+  {
+    "title": "Planet Zoo",
+    "description": "Стратегия-симулятор по строительству и управлению зоопарком.",
+    "price": "44.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/703080/header.jpg?t=1691751958",
+    "link": "https://store.steampowered.com/app/703080/Planet_Zoo/",
+    "genre": "strategy"
+  },
+  {
+    "title": "Hearts of Iron IV",
+    "description": "Глобальная стратегия про Вторую мировую войну, где вы управляете целыми странами.",
+    "price": "39.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/394360/header.jpg?t=1694888448",
+    "link": "https://store.steampowered.com/app/394360/Hearts_of_Iron_IV/",
+    "genre": "strategy"
+  },
+  {
+    "title": "Surviving Mars",
+    "description": "Градостроительная стратегия на Красной планете.",
+    "price": "29.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/464920/header.jpg?t=1681215901",
+    "link": "https://store.steampowered.com/app/464920/Surviving_Mars/",
+    "genre": "strategy"
+  },
+  {
+    "title": "Tropico 6",
+    "description": "Управляйте собственным тропическим государством, строя и правя его как диктатор или демократ.",
+    "price": "39.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/492720/header.jpg?t=1691763386",
+    "link": "https://store.steampowered.com/app/492720/Tropico_6/",
+    "genre": "strategy"
+  },
+  {
+    "title": "Northgard",
+    "description": "RTS с элементами выживания, вдохновленная скандинавской мифологией.",
+    "price": "29.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/466560/header.jpg?t=1694213181",
+    "link": "https://store.steampowered.com/app/466560/Northgard/",
+    "genre": "strategy"
+  },
+  {
+    "title": "Factorio",
+    "description": "Автоматизация производства и управление ресурсами в 2D-мира.",
+    "price": "35.00",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/427520/header.jpg?t=1696957633",
+    "link": "https://store.steampowered.com/app/427520/Factorio/",
+    "genre": "strategy"
+  },
+  {
+    "title": "Battle Brothers",
+    "description": "Тактическая RPG с процедурно генерируемым миром.",
+    "price": "29.99",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/365360/header.jpg?t=1686649827",
+    "link": "https://store.steampowered.com/app/365360/Battle_Brothers/",
+    "genre": "strategy"
+  }
+  ,
+  {
+    "title": "",
+    "description": "",
+    "price": "",
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/header.jpg?t=1732928419",
+    "link": "",
+    "genre": ""
+  }
+  ,
+  {
+    "title": "",
+    "description": "",
+    "price": "",
+    "image": "",
+    "link": "",
+    "genre": ""
+  }
+  ,
+  {
+    "title": "",
+    "description": "",
+    "price": "",
+    "image": "",
+    "link": "",
+    "genre": ""
+  }
+]
