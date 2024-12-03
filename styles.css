@@ -1,10 +1,12 @@
-body { 
+body {  
   margin: 0;
   font-family: Arial, sans-serif;
-  background-image: url('c:\Users\User\Downloads\wall-21534_1280.jpg');
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  background-image: url('c:\\Users\\User\\Downloads\\wall-21534_1280.jpg');
   background-size: cover;
-  background-repeat: repeat;
-  color: #ac2626; /* Белый цвет текста для лучшей видимости */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 header {
@@ -12,13 +14,20 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #000000; /* Более тёмный серый цвет для меню */
+  background-color: var(--header-bg);
   z-index: 1000;
 }
 
 .navbar {
   display: flex;
   justify-content: center; /* Центрируем меню */
+  padding: 5px 0;  /* Уменьшаем отступы для компактного меню */
+}
+
+.navbar-image {
+  height: 40px; /* Уменьшаем высоту изображения в меню */
+  width: auto;  /* Ширина будет автоматически изменяться в зависимости от высоты */
+  margin: 0 10px; /* Отступы */
 }
 
 .menu {
@@ -26,52 +35,37 @@ header {
   margin: 0;
   padding: 0;
   display: flex;
+  justify-content: center;
+  gap: 10px;  /* Уменьшаем расстояние между пунктами меню */
 }
 
 .menu li {
-  margin: 0 15px;
+  margin: 0;
 }
 
 .menu a {
   text-decoration: none;
-  color: #fff; /* Белый цвет для текста ссылок */
-  padding: 15px 20px;
-  display: flex;
-  align-items: center; /* Выровнять иконку с текстом */
+  color: var(--link-color);
+  padding: 8px 12px;  /* Уменьшаем padding для ссылок */
+  font-size: 16px; /* Уменьшаем размер шрифта для элементов меню */
+  display: inline-flex;
+  align-items: center;
   transition: background-color 0.3s;
 }
 
 .menu a:hover {
-  background-color: #b11b1b; /* Лёгкий серый оттенок для активных ссылок */
+  background-color: #b11b1b; /* Цвет при наведении */
   border-radius: 5px;
 }
 
-.menu a i {
-  margin-right: 8px; /* Отступ между иконкой и текстом */
-}
-
-main {
-  padding-top: 60px; /* Учитываем фиксированное меню */
+.main {
+  padding-top: 70px; /* Учитываем фиксированное меню */
 }
 
 section {
-  padding: 50px 20px;
+  padding: 40px 20px;
   border-bottom: 1px solid #234794;
 }
-
-section h1, section h2 {
-  margin-top: 0;
-}
-
-section:nth-child(odd) {
-  background-color: #b4bac5; /* Светлый фон для нечётных секций */
-}
-
-.catalog {
-  display: flex;
-  gap: 40px;
-}
-
 
 button {
   background-color: #ff5722; /* Оранжевый цвет для кнопок */
@@ -86,28 +80,24 @@ button {
 button:hover {
   background-color: #94685c; /* Темный оранжевый при наведении */
 }
-.navbar-nav {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
 
+/* Адаптивные стили для уменьшения размера на мобильных устройствах */
+@media (max-width: 768px) {
+  .navbar-image {
+    height: 30px; /* Еще меньше высота изображения на мобильных устройствах */
+  }
 
-.navbar-image {
-  
-  height: 60px; 
-  width: 150px;
-  margin-left: 0px; 
-  margin-right: 0px; 
-  margin-top: 0px;
-  margin-bottom: 20px;
-}
-.nav-item {
-  font-size: 20px; /* Установите размер шрифта по вашему усмотрению */
-  font-weight: bold; /* Сделать текст жирным, если нужно */
-}
+  .menu {
+    flex-direction: column; /* Меню будет в столбик на мобильных */
+    align-items: center; /* Центрируем элементы меню */
+  }
 
-/* Если нужно увеличить шрифт только для ссылок, можно использовать этот селектор */
-.nav-link {
-  font-size: 20px; /* Увеличиваем размер шрифта только для ссылок */
+  .menu a {
+    font-size: 14px; /* Меньше шрифт для ссылок */
+    padding: 6px 10px; /* Меньше padding на мобильных */
+  }
+
+  .navbar {
+    padding: 5px 0;  /* Уменьшаем отступы на мобильных */
+  }
 }
