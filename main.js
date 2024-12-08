@@ -1,15 +1,17 @@
 function getProductHtml(product) {
+  
+ 
   return `
-    <div class="card" style="width: 18rem;">
-      <img src="${product.image}" class="card-img-top" alt="${product.title}">
-      <div class="card-body">
-        <h5 class="card-title">${product.title}</h5>
-        <p class="card-text">${product.description}</p>
-        <a href="${product.link}" class="btn btn-primary" target="_blank">${product.price}$</a>
+      <div class="card" style="width: 18rem;">
+        <img src="${product.image}" class="card-img-top" alt="${product.title}">
+        <div class="card-body">
+          <h5 class="card-title">${product.title}</h5>
+          <p class="card-text">${product.description}</p>
+          <a href="${product.link}" class="btn btn-primary" target="_blank">Go to Steam</a>
+        </div>
       </div>
-    </div>
-  `;
-}
+    `;
+  }
 
 // Получение продуктов с сервера
 async function getProducts() {
