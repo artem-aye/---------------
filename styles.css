@@ -78,7 +78,7 @@ button {
 }
 
 button:hover {
-  background-color: #94685c; /* Темный оранжевый при наведении */
+  background-color: #94685c; 
 }
 
 /* Адаптивные стили для уменьшения размера на мобильных устройствах */
@@ -100,4 +100,96 @@ button:hover {
   .navbar {
     padding: 5px 0;  /* Уменьшаем отступы на мобильных */
   }
+}
+ .carousel-inner {
+  border-radius: 10px; /* Закругляем углы слайдов */
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Добавляем тень для слайдов */
+}
+
+.carousel-item {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8); /* Легкий белый фон для слайдов */
+  border-radius: 10px;
+  transition: transform 0.3s ease; /* Плавное переключение между слайдами */
+}
+
+.carousel-item h5 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.carousel-item p {
+  font-size: 16px;
+  color: #666;
+}
+
+.carousel-indicators button {
+  background-color: #ff5722; /* Оранжевый цвет для индикаторов */
+}
+
+.carousel-indicators .active {
+  background-color: #b11b1b; /* Цвет активного индикатора */
+}
+
+/* Кнопки для переключения карусели */
+.carousel-control-prev-icon, 
+.carousel-control-next-icon {
+  background-color: #ff5722; /* Оранжевые стрелки */
+  border-radius: 50%; /* Круглая форма стрелок */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 50px;
+  height: 50px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.3); /* Полупрозрачный фон для кнопок */
+  border-radius: 50%;
+}
+
+/* Плавное появление и исчезновение текста на слайде */
+.carousel-item {
+  opacity: 0;
+  animation: fadeIn 1s ease forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+form {
+  max-width: 500px;
+  margin: 30px auto; /* Центрируем форму */
+  padding: 20px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+form input, form textarea {
+  width: 100%; /* Все элементы формы растягиваются на всю ширину */
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #ff5722; /* Тот же оранжевый цвет для кнопок */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #94685c; 
 }

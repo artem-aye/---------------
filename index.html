@@ -119,12 +119,41 @@
     <section id="blog">
       <h2 class="text-center my-4">Блог та останні новини</h2>
       <div class="container">
+        <!-- Карусель новин -->
         <div id="newsCarousel" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <!-- Слайды новин (оставлены без изменений) -->
+          <!-- Индикаторы карусели -->
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#newsCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#newsCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#newsCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#newsCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
           </div>
-
-          <!-- Кнопки для перемикання каруселі -->
+    
+          <!-- Слайды карусели -->
+          <div class="carousel-inner">
+            <!-- Первый слайд -->
+            <div class="carousel-item active">
+              <h5 class="text-center">Новина 1</h5>
+              <p class="text-center">Опис новини 1. Тут йде детальніше пояснення цієї новини та важливі подробиці.</p>
+            </div>
+            <!-- Второй слайд -->
+            <div class="carousel-item">
+              <h5 class="text-center">Новина 2</h5>
+              <p class="text-center">Опис новини 2. Тут йде детальніше пояснення цієї новини та важливі подробиці.</p>
+            </div>
+            <!-- Третий слайд -->
+            <div class="carousel-item">
+              <h5 class="text-center">Новина 3</h5>
+              <p class="text-center">Опис новини 3. Тут йде детальніше пояснення цієї новини та важливі подробиці.</p>
+            </div>
+            <!-- Четвертый слайд -->
+            <div class="carousel-item">
+              <h5 class="text-center">Новина 4</h5>
+              <p class="text-center">Опис новини 4. Тут йде детальніше пояснення цієї новини та важливі подробиці.</p>
+            </div>
+          </div>
+    
+          <!-- Кнопки для переключения -->
           <button class="carousel-control-prev" type="button" data-bs-target="#newsCarousel" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Попередній</span>
@@ -136,7 +165,6 @@
         </div>
       </div>
     </section>
-
     <!-- Секция контактов -->
     <section id="contact">
       <h2 class="text-center my-4">Написати мені</h2>
@@ -156,4 +184,4 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   <script src="main.js"></script>
 </body>
-</html>
+</html> 
