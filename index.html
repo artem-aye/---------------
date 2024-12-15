@@ -54,7 +54,11 @@
         <h1 class="text-center mb-4">Ігри</h1>
         <div class="row catalog"></div>
       </div>
+      <div class="pagination-container">
+      <div class="pagination"></div>
+    </div>
     </section>
+    
 
     <!-- Секция жанров -->
     <section id="top">
@@ -119,49 +123,126 @@
     <section id="blog">
       <h2 class="text-center my-4">Блог та останні новини</h2>
       <div class="container">
-        <!-- Карусель новин -->
-        <div id="newsCarousel" class="carousel slide" data-bs-ride="carousel">
-          <!-- Индикаторы карусели -->
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#newsCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#newsCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#newsCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#newsCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
-          </div>
+        <div class="row">
+          <div class="col-md-12">
+            <!-- Новостная лента -->
+            <div class="news-grid">
+              <div class="news-item">
+                <img src="https://gameverse.com.ua/uploads/articles/2024/12/07/game.jpg.webp" alt="Новина 1" class="img-fluid">
+                <div class="news-content">
+                  <h5>Over The Top: WWI запускає тест бою 100 на 100 гравців</h5>
+                  <p>Команда Flying Squirrel Entertainment оголосила про старт багатокористувацького тестування свого нового проєкту Over The Top: WWI.</p>
+                </div>
+              </div>
+              <div class="news-item">
+                <img src="https://gameverse.com.ua/uploads/articles/2024/12/07/ind.jpg.webp" alt="Новина 2" class="img-fluid">
+                <div class="news-content">
+                  <h5>Оцінки Indiana Jones and the Great Circle</h5>
+                  <p>Опубліковані огляди Indiana Jones and the Great Circle від критиків, оцінки гри виявилися досить високими.</p>
+                </div>
+              </div>
+              <div class="news-item">
+                <img src="https://gameverse.com.ua/uploads/articles/2024/12/06/ep.jpg.webp" alt="Новина 3" class="img-fluid">
+                <div class="news-content">
+                  <h5>Epic Games Store роздає LEGO Star Wars: Skywalker Saga і Bus Simulator 21</h5>
+                  <p>Epic Games Store безкоштовно роздає ігри LEGO Star Wars: The Skywalker Saga і Bus Simulator 21 Next Stop.</p>
+                </div>
+              </div>
+              <div class="news-item">
+                <img src="https://gameverse.com.ua/uploads/articles/2024/12/05/mafia.jpg.webp" alt="Новина 4" class="img-fluid">
+                <div class="news-content">
+                  <h5>Нова Mafia отримає українську локалізацію</h5>
+                  <p>Наступна частина культової серії ігор з відкритим світом Mafia отримає українську локалізацію.</p>
+                </div>
+              </div>
+              <div class="news-item">
+                <img src="https://gameverse.com.ua/uploads/articles/2024/12/05/xbox.jpg.webp" alt="Новина 5" class="img-fluid">
+                <div class="news-content">
+                  <h5>Xbox Game Pass грудень 2024</h5>
+                  <p>Microsoft розкрила перелік нових ігор, які стануть доступні в Xbox Game Pass у першій половині грудня.</p>
+                </div>
+              </div>
     
-          <!-- Слайды карусели -->
-          <div class="carousel-inner">
-            <!-- Первый слайд -->
-            <div class="carousel-item active">
-              <h5 class="text-center">Новина 1</h5>
-              <p class="text-center">Опис новини 1. Тут йде детальніше пояснення цієї новини та важливі подробиці.</p>
-            </div>
-            <!-- Второй слайд -->
-            <div class="carousel-item">
-              <h5 class="text-center">Новина 2</h5>
-              <p class="text-center">Опис новини 2. Тут йде детальніше пояснення цієї новини та важливі подробиці.</p>
-            </div>
-            <!-- Третий слайд -->
-            <div class="carousel-item">
-              <h5 class="text-center">Новина 3</h5>
-              <p class="text-center">Опис новини 3. Тут йде детальніше пояснення цієї новини та важливі подробиці.</p>
-            </div>
-            <!-- Четвертый слайд -->
-            <div class="carousel-item">
-              <h5 class="text-center">Новина 4</h5>
-              <p class="text-center">Опис новини 4. Тут йде детальніше пояснення цієї новини та важливі подробиці.</p>
+              <!-- Інші новини (вони автоматично перейдуть на наступний рядок) -->
+              <div class="news-item">
+                <img src="https://gameverse.com.ua/uploads/articles/2024/12/04/stal.jpg.webp" alt="Новина 6" class="img-fluid">
+                <div class="news-content">
+                  <h5>Вийшов новий патч на STALKER 2</h5>
+                  <p>GSC Game World представила третій патч для S.T.A.L.K.E.R. 2: Heart of Chornobyl, який оновив гру до версії 1.0.3.</p>
+                </div>
+              </div>
+              <div class="news-item">
+                <img src="https://gameverse.com.ua/uploads/articles/2024/12/04/30ps.jpg.webp" alt="Новина 6" class="img-fluid">
+                <div class="news-content">
+                  <h5>PlayStation відзначає своє 30-річчя, пропонуючи в PS Store знижки на ігри до 80%</h5>
+                  <p>У PS Store стартував розпродаж, приурочений до 30-річчя PlayStation. Знижки торкнулися безлічі популярних ігор, а всього на розпродажі представлено понад тисячу проєктів за вигідними цінами.</p>
+                </div>
+              </div>
+              <div class="news-item">
+                <img src="https://gameverse.com.ua/uploads/articles/2024/12/03/kc2.jpg.webp" alt="Новина 6" class="img-fluid">
+                <div class="news-content">
+                  <h5>Показали 43 хвилини геймплею Kingdom Come Deliverance 2</h5>
+                  <p>На YouTube-каналі IGN з'явилося нове відео, що демонструє 43 хвилини ігрового процесу Kingdom Come: Deliverance 2. У представленому ролику показані катсцени, верхова їзда, діалоги з NPC, стрільба з арбалета, а також напружена дуель із лицарем на мечах.</p>
+                </div>
+              </div>
+              <div class="news-item">
+                <img src="https://gameverse.com.ua/uploads/articles/2024/12/14/split.jpg.webp" alt="Новина 6" class="img-fluid">
+                <div class="news-content">
+                  <h5>Анонсована Split Fiction від авторів It Takes Two</h5>На церемонії The Game Awards 2024 студія Hazelight Studios, відома своїми проєктами A Way Out і It Takes Two, анонсувала свою нову гру під назвою Split Fiction.</p>
+                </div>
+              </div>
+              <div class="news-item">
+                <img src="https://gameverse.com.ua/uploads/articles/2024/12/14/astro-bot-2024.jpg.webp" alt="Новина 6" class="img-fluid">
+                <div class="news-content">
+                  <h5>Astro Bot отримала звання «Гра року». Список результатів The Game Awards 2024</h5>
+                  <p>Astro Bot - ексклюзивна гра для PS5 була визнана найкращою грою 2024 року. Це захоплива пригода про кумедного робота, який досліджує всесвіти, присвячені іграм Sony..</p>
+                </div>
+              </div>
+              <div class="news-item">
+                <img src="https://gameverse.com.ua/uploads/articles/2024/12/13/fg.jpg.webp" alt="Новина 6" class="img-fluid">
+                <div class="news-content">
+                  <h5>В Epic Games Store безкоштовно роздають The Lord of the Rings: Return to Moria</h5>
+                  <p>Гра на виживання The Lord of the Rings: Return to Moria, присвячена гномам зі світу «Володаря перснів», стала безкоштовною в Epic Games Store. Усі охочі можуть додати гру, випущену минулого року, до своєї бібліотеки протягом тижня.</p>
+                </div>
+              </div>
+              <div class="news-item">
+                <img src="https://gameverse.com.ua/uploads/articles/2024/12/13/rty.jpg.webp" alt="Новина 6" class="img-fluid">
+                <div class="news-content">
+                  <h5>Анонсували BLACKFROST: The Long Dark II</h5>
+                  <p>Розробники представили дебютний трейлер, у якому продемонстрували різноманітних персонажів і атмосферні локації. Планується, що сиквел буде запущено в ранньому доступі, реліз якого заплановано на 2026 рік..</p>
+                </div>
+              </div>
+              <div class="news-item">
+                <img src="https://gameverse.com.ua/uploads/articles/2024/12/13/witc4.jpeg.webp" alt="Новина 6" class="img-fluid">
+                <div class="news-content">
+                  <h5>Перший трейлер Відьмак 4</h5>
+                  <p>Польська студія CD Projekt RED вразила фанатів своєю участю в церемонії The Game Awards 2024. Команда розробників уперше продемонструвала трейлер нової частини культової серії ігор «The Witcher».</p>
+                </div>
+              </div>
+              <div class="news-item">
+                <img src="https://gameverse.com.ua/uploads/articles/2024/12/12/ceber.jpg.webp" alt="Новина 6" class="img-fluid">
+                <div class="news-content">
+                  <h5>Для Cyberpunk 2077 вийшло оновлення 2.2</h5>
+                  <p>Випустили новий патч для Cyberpunk 2077 на честь її четвертої річниці.Опис новини 6. Тут йде детальніше пояснення цієї новини та важливі подробиці.</p>
+                </div>
+              </div>
+              <div class="news-item">
+                <img src="https://gameverse.com.ua/uploads/articles/2024/12/09/chaos.jpg.webp" alt="Новина 6" class="img-fluid">
+                <div class="news-content">
+                  <h5>Нещодавно анонсували хорор на виживання - Total Chaos</h5>
+                  <p>Інді-студія Trigger Happy Interactive опублікувала трейлер свого похмурого хорор-шутера Total Chaos і підтвердила, що гра вийде влітку 2025 року.</p>
+                </div>
+              </div>
+              <div class="news-item">
+                <img src="https://gameverse.com.ua/uploads/articles/2024/12/10/covgame.jpg.webp" alt="Новина 6" class="img-fluid">
+                <div class="news-content">
+                  <h5>Covenant - новий шутер у світі темного фентезі</h5>
+                  <p>Студія Legion представила Covenant - шутер від першої особи в жанрі soulslike, супроводжуючи анонс випуском першого трейлера гри.</p>
+                </div>
+              </div>
+              <!-- Додати ще новини за потреби -->
             </div>
           </div>
-    
-          <!-- Кнопки для переключения -->
-          <button class="carousel-control-prev" type="button" data-bs-target="#newsCarousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Попередній</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#newsCarousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Наступний</span>
-          </button>
         </div>
       </div>
     </section>

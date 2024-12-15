@@ -101,59 +101,120 @@ button:hover {
     padding: 5px 0;  /* Уменьшаем отступы на мобильных */
   }
 }
- .carousel-inner {
-  border-radius: 10px; /* Закругляем углы слайдов */
-  overflow: hidden;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Добавляем тень для слайдов */
+.news-carousel { /*новини*/
+  display: flex;
+  overflow-x: scroll; /* Горизонтальная прокрутка */
+  gap: 20px; /* Отступы между новостями */
+  padding: 20px 0;
 }
 
-.carousel-item {
-  padding: 20px;
-  background-color: rgba(255, 255, 255, 0.8); /* Легкий белый фон для слайдов */
+.news-item {
+  background-color: rgba(255, 255, 255, 0.8);
   border-radius: 10px;
-  transition: transform 0.3s ease; /* Плавное переключение между слайдами */
+  overflow: hidden;
+  width: 300px; /* Ширина каждого блока новости */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
 }
 
-.carousel-item h5 {
-  font-size: 24px;
+.news-item:hover {
+  transform: translateY(-10px); /* Эффект при наведении */
+}
+
+.news-item img {
+  width: 100%;
+  height: auto;
+  border-bottom: 3px solid #ff5722; /* Линия между изображением и текстом */
+}
+
+.news-content {
+  padding: 10px;
+}
+
+.news-content h5 {
+  font-size: 18px;
   font-weight: bold;
   color: #333;
 }
 
-.carousel-item p {
-  font-size: 16px;
+.news-content p {
+  font-size: 14px;
   color: #666;
+  margin-top: 10px;
 }
 
-.carousel-indicators button {
-  background-color: #ff5722; /* Оранжевый цвет для индикаторов */
+.news-carousel::-webkit-scrollbar {
+  height: 8px; /* Высота полосы прокрутки */
 }
 
-.carousel-indicators .active {
-  background-color: #b11b1b; /* Цвет активного индикатора */
+.news-carousel::-webkit-scrollbar-thumb {
+  background-color: #ff5722;
+  border-radius: 10px;
+}
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 5 стовпців однакової ширини */
+  gap: 20px; /* Відступи між новинами */
+  padding: 20px 0;
 }
 
-/* Кнопки для переключения карусели */
-.carousel-control-prev-icon, 
-.carousel-control-next-icon {
-  background-color: #ff5722; /* Оранжевые стрелки */
-  border-radius: 50%; /* Круглая форма стрелок */
+.news-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
 }
 
-.carousel-control-prev,
-.carousel-control-next {
-  width: 50px;
-  height: 50px;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: rgba(0, 0, 0, 0.3); /* Полупрозрачный фон для кнопок */
-  border-radius: 50%;
+.news-item:hover {
+  transform: translateY(-10px); /* Ефект при наведенні */
 }
 
-/* Плавное появление и исчезновение текста на слайде */
-.carousel-item {
-  opacity: 0;
-  animation: fadeIn 1s ease forwards;
+.news-item img {
+  width: 100%;
+  height: auto;
+  border-bottom: 3px solid #ff5722; /* Лінія між зображенням та текстом */
+}
+
+.news-content {
+  padding: 10px;
+}
+
+.news-content h5 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.news-content p {
+  font-size: 14px;
+  color: #666;
+  margin-top: 10px;
+}
+
+/* Адаптивні стилі для маленьких екранів */
+@media (max-width: 1200px) {
+  .news-grid {
+    grid-template-columns: repeat(4, 1fr); /* 4 стовпці на екранах середнього розміру */
+  }
+}
+
+@media (max-width: 992px) {
+  .news-grid {
+    grid-template-columns: repeat(3, 1fr); /* 3 стовпці на екранах середнього розміру */
+  }
+}
+
+@media (max-width: 768px) {
+  .news-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 стовпці на мобільних екранах */
+  }
+}
+
+@media (max-width: 576px) {
+  .news-grid {
+    grid-template-columns: 1fr; /* 1 стовпець на дуже маленьких екранах */
+  }
 }
 
 @keyframes fadeIn {
@@ -198,5 +259,46 @@ position: absolute;
 bottom: 50px;  
   left: 5px; 
   z-index: 1;    
+}
+
+
+.catalog {
+  display: flex;
+  flex-wrap: wrap; /* Картки можуть переноситись на новий рядок */
+  gap: 20px; /* Відступ між картками */
+  justify-content: space-between; /* Вирівнюємо картки по горизонталі */
+  padding: 20px;
+}
+
+/* Стиль для картки */
+.card {
+  width: 100%; /* За замовчуванням картка займає всю ширину на малих екранах */
+  background-color: rgb(30, 113, 168); /* Колір фону картки */
+border-radius: 10px; /* Закруглені кути */
+box-shadow: 0 4px 10px rgba(48, 4, 4, 0.1); /* Тінь для картки */
+transition: transform 0.3s ease; /* Плавний ефект при наведенні */
+}
+.card:hover {
+transform: translateY(-10px); /* Підйом картки при наведенні */
+}
+/* Оформлення кнопки */
+.steam-btn {
+position: absolute;
+  bottom: 10px;  /* Відстань від низу картки */
+  left: 10px;    /* Відстань від лівого краю */
+  z-index: 1;
+}
+
+/* Встановлюємо ширину картки на великих екранах */
+@media (min-width: 768px) {
+  .card {
+width: 30%; /* Картки займають 30% ширини на екранах середнього та великого розміру */
+  }
+}
+/* Оформлення для маленьких екранів (мобільних) */
+@media (max-width: 767px) {
+  .card {
+    width: 100%; /* Картки займають всю ширину на малих екранах */
+  }
 }
 
