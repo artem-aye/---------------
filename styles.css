@@ -301,4 +301,28 @@ width: 30%; /* Картки займають 30% ширини на екрана�
     width: 100%; /* Картки займають всю ширину на малих екранах */
   }
 }
+.left-ad {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 300px;
+  height: 600px;
+  z-index: 999;
+}
 
+/* Позиционирование правого баннера */
+.right-ad {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  width: 300px;
+  height: 600px;
+  z-index: 999;
+}
+.adsbygoogle {
+  display: inline-block;
+  width: 270px;
+  height: 1200px;
+}
