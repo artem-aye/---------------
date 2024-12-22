@@ -326,3 +326,20 @@ width: 30%; /* Картки займають 30% ширини на екрана�
   width: 270px;
   height: 1200px;
 }
+img {
+  width: 100%;
+  height: auto;
+  border-bottom: 3px solid var(--primary-color);
+}
+img[loading="lazy"] {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+img[loading="lazy"].loaded {
+  opacity: 1;
+}
+@media (max-width: 576px) {
+  .left-ad, .right-ad {
+    display: none;
+  }
+}
