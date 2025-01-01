@@ -255,12 +255,12 @@ form button:hover {
   background-color: #94685c; 
 }
 .steam-btn {
-position: absolute;
-bottom: 50px;  
-  left: 5px; 
-  z-index: 1;    
-}
-
+  position:absolute;
+  bottom: 50px;  
+    left: 40px; 
+    z-index: 1;    
+  }
+  
 
 .catalog {
   display: flex;
@@ -282,12 +282,7 @@ transition: transform 0.3s ease; /* Плавний ефект при навед�
 transform: translateY(-10px); /* Підйом картки при наведенні */
 }
 /* Оформлення кнопки */
-.steam-btn {
-position: absolute;
-  bottom: 10px;  /* Відстань від низу картки */
-  left: 10px;    /* Відстань від лівого краю */
-  z-index: 1;
-}
+
 
 /* Встановлюємо ширину картки на великих екранах */
 @media (min-width: 768px) {
@@ -343,3 +338,24 @@ img[loading="lazy"].loaded {
     display: none;
   }
 }
+  .button-container {
+    display: flex;
+    justify-content: space-between; /* Розташовує кнопки по різні боки */
+    align-items: center; /* Вирівнює кнопки по вертикалі */
+    padding: 20px; /* Відступи навколо кнопок */
+  }
+  
+  .steam-btn, .cart-btn {
+    background-color: #ff5722; /* Оранжевий колір для кнопок */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .steam-btn :hover, .cart-btn:hover {
+    background-color: #94685c;
+  }
+  
