@@ -41,7 +41,6 @@
       (adsbygoogle = window.adsbygoogle || []).push({});
     </script>
   </div>
-
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
@@ -55,11 +54,26 @@
           <li class="nav-item"><a class="nav-link" href="#blog">Новини</a></li>
           <li class="nav-item"><a class="nav-link" href="#contact">Зв'язатися зі мною</a></li>
         </ul>
+        <div id="cart" class="cart">
+          <button id="cartButton" class="cart-button">
+            <i class="fas fa-shopping-cart"></i> Корзина
+            <span id="cartCount" class="cart-count">0</span>
+          </button>
+          <div id="cartDropdown" class="cart-dropdown">
+            <div id="cartItems" class="cart-items">
+              <!-- Элементы корзины будут вставляться сюда -->
+            </div>
+            <div class="cart-total">
+              <span>Итого:</span>
+              <span id="cartTotal">0 грн</span>
+            </div>
+            <button id="checkoutButton" class="btn btn-primary">Оформить заказ</button>
+          </div>
+        </div>
+      
       </div>
     </nav>
-    
   </header>
-
   <main>
     <!-- Главная секция -->
     <section id="home">
@@ -445,9 +459,9 @@
   </main>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
-  <script src="main.js"></script>
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+  crossorigin="anonymous"></script>
+<script src="main.js"></script>
 </body>
 
 </html>

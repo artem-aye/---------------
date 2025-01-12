@@ -116,69 +116,82 @@ updateNewsCarousel();
 
 // Периодическое обновление новостей
 setInterval(updateNewsCarousel, 30000);
+//корзина
+let cart = [];  // Массив для хранения товаров в корзине
+let products = [];  // Массив для хранения всех игр
 
-// Класс для управления корзиной
-class Cart {
-  constructor() {
-    this.items = {};
-    this.loadCartFromCookies();
-  }
+// Ссылка на контейнер для списка игр
+const gameList = document.getElementById('gameList');
 
-  addItem(item) {
-    if (this.items[item.title]) {
-      this.items[item.title].quantity += 1;
-    } else {
-      this.items[item.title] = { ...item, quantity: 1 };
-    }
-    this.saveCartToCookies();
-  }
+// Ссылка на корзину
+const cartButton = document.getElementById('cartButton');
+const cartDropdown = document.getElementById('cartDropdown');
+const cartCount = document.getElementById('cartCount');
+const cartTotal = document.getElementById('cartTotal');
+const cartItems = document.getElementById('cartItems');
 
-  saveCartToCookies() {
-    document.cookie = `cart=${encodeURIComponent(JSON.stringify(this.items))}; max-age=${60 * 60 * 24 * 7}; path=/`;
-  }
-
-  loadCartFromCookies() {
-    const cartCookies = getCookieValue('cart');
-    if (cartCookies) {
-      this.items = JSON.parse(cartCookies);
-    }
-  }
-
-  getCartHtml() {
-    return Object.values(this.items).map(item => `
-      <div style="border: 1px solid black; padding: 10px; margin: 5px;">
-        <p>Название: ${item.title}</p>
-        <p>Цена: ${item.price}</p>
-        <p>Количество: ${item.quantity}</p>
+// Функция для отображения списка игр
+function displayGames(products) {
+  products.forEach(product => {
+    const gameCard = document.createElement('div');
+    gameCard.classList.add('col-md-4');
+    gameCard.innerHTML = `
+      <div class="game-card">
+        <img src="${product.image}" alt="${product.title}">
+        <h5>${product.title}</h5>
+        <p>${product.description}</p>
+        <p><strong>${product.price} грн</strong></p>
+        <a href="${product.link}" target="_blank" class="btn btn-info">Подробнее</a>
+        <button onclick="addItemToCart(${product.title})">Добавить в корзину</button>
       </div>
-    `).join('');
+    `;
+    gameList.appendChild(gameCard);
+  });
+}
+
+// Функция для добавления товара в корзину
+function addItemToCart(productTitle) {
+  const product = products.find(p => p.title === productTitle);
+  if (product) {
+    cart.push(product);
+    updateCart();
   }
 }
 
-const cart = new Cart();
+// Обработчик клика по кнопке корзины
+cartButton.addEventListener('click', () => {
+  cartDropdown.classList.toggle('show');
+});
 
-function addToCart(event) {
-  const productData = event.target.getAttribute('data-product');
-  const product = JSON.parse(productData);
-  cart.addItem(product);
-  showCart();
+// Функция для обновления отображения корзины
+function updateCart() {
+  // Обновляем количество товаров в корзине
+  cartCount.textContent = cart.length;
+
+  // Считаем общую сумму
+  let total = 0;
+  cartItems.innerHTML = ''; // Очистим список товаров в корзине
+  cart.forEach(item => {
+    total += parseFloat(item.price);
+    const cartItem = document.createElement('div');
+    cartItem.classList.add('cart-item');
+    cartItem.innerHTML = `
+      <span class="item-name">${item.title}</span>
+      <span class="item-price">${item.price} грн</span>
+    `;
+    cartItems.appendChild(cartItem);
+  });
+
+  // Обновляем общую сумму
+  cartTotal.textContent = `${total} грн`;
 }
 
-function getCookieValue(cookieName) {
-  const cookies = document.cookie.split('; ');
-  for (const cookie of cookies) {
-    const [name, value] = cookie.split('=');
-    if (name === cookieName) {
-      return decodeURIComponent(value);
-    }
-  }
-  return null;
-}
-
-function showCart() {
-  const cartContainer = document.querySelector('.cart-container');
-  cartContainer.innerHTML = cart.getCartHtml();
-}
-
-// Отображение корзины при загрузке страницы
-showCart();
+// Загрузка данных из файла products.json
+fetch('products.json')
+  .then(response => response.json())
+  .then(data => {
+    // Сохраняем данные в переменной products
+    products = data;  // Здесь получаем весь массив товаров
+    displayGames(data);  // Отображаем все игры
+  })
+  .catch(error => console.error('Ошибка загрузки данных:', error));
